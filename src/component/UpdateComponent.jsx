@@ -53,7 +53,7 @@ const UpdateComponent = () => {
     };
 
     return (
-        <div className="w-full items-center m-auto justify-center flex bg-[url('src/assets/Update_Appointment.jpg')]">
+        <div className="w-full items-center m-auto justify-center flex bg-update-image">
             <div className="px-10 my-8 py-5 pr-0 w-96 rounded-xl bg-yellow-900 bg-opacity-70">
                 <h1 className='pl-[80px] font-bold mb-1 mt-1 text-white'>Update Component</h1>
                 <GrDocumentUpdate className='text-white w-5 ml-[140px] h-8' />

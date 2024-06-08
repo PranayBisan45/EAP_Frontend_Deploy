@@ -72,7 +72,7 @@ function Login() {
   };
 
   return (
-    <div className="w-full items-center m-auto justify-center flex bg-[url('src/assets/Login.jpg')]">
+    <div className="w-full items-center m-auto justify-center flex bg-login-image">
       <div className="px-10 my-8 py-5 pr-0 w-96 rounded-xl bg-sky-200 bg-opacity-70">
       <IoPersonCircleSharp  className='text-slate-800 w-72 h-8'/>
       <h2 className="pl-[120px] font-bold mb-4 mt-1">Log In</h2>

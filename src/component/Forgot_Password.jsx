@@ -71,7 +71,7 @@ const Forgot_Password = () => {
     }
 
     return (
-        <div className="w-full items-center min-h-screen m-auto flex justify-center bg-[url('src/assets/Forgot_Password.jfif')]">
+        <div className="w-full items-center min-h-screen m-auto flex justify-center bg-forgot-password">
             <div className='bg-yellow-800 bg-opacity-70 text-center mx-[600px] px-10 py-5 pr-0 w-96 rounded-xl'>
                 <form className='mr-8' onSubmit={handleSubmit}>
                     <IoIosLock className='mb-1 text-2xl ml-28' />

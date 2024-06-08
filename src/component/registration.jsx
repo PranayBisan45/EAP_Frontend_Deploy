@@ -80,7 +80,7 @@ function Registration() {
     };
 
     return (
-      <div className="w-full items-center m-auto justify-center flex bg-[url('src/assets/Registration.jpg')]">
+      <div className="w-full items-center m-auto justify-center flex bg-regis-image">
         <div className="px-4 my-8 py-5 pr-0 w-96 rounded-xl bg-amber-950 bg-opacity-60">
           <form onSubmit={handleSubmit} className="form-container">
             <div className='text-center mr-12'> 

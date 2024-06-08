@@ -41,7 +41,7 @@ function AddAppointment() {
   };
 
   return (
-    <div className="w-full items-center m-auto justify-center flex bg-[url('src/assets/Add_Appointment.jpg')]">
+    <div className="w-full items-center m-auto justify-center flex bg-add-image">
       <div className="px-10 my-8 py-5 pr-0 w-96 rounded-xl bg-sky-200 bg-opacity-70">
         <div className="pl-[80px] font-bold mb-2 mt-1">Add Appointment</div>
         <IoLogIn className='text-slate-800 w-72 h-8'/>
@@ -49,7 +49,7 @@ function AddAppointment() {
         <form onSubmit={handleSubmit}>
           <div className='text-center'>
             <div>
-      <lable htmlFor="username" className="mr-16 mb-2" >User Name</lable> <br/>
+      <label htmlFor="username" className="mr-16 mb-2" >User Name</label> <br/>
       <input type='text'
       name='username'
       id='username'
@@ -61,7 +61,7 @@ function AddAppointment() {
       />
     </div>
     <div>
-      <lable htmlFor="name" className="mr-16 mb-2">Full Name</lable> <br/>
+      <label htmlFor="name" className="mr-16 mb-2">Full Name</label> <br/>
       <input type='text'
       name='name'
       id='name'
@@ -73,7 +73,7 @@ function AddAppointment() {
       />
     </div>
     <div>
-      <lable htmlFor="number" className="mr-16 mb-2">Mobile Number</lable> <br/>
+      <label htmlFor="number" className="mr-16 mb-2">Mobile Number</label> <br/>
       <input type='number'
       name='number'
       id='number'
@@ -85,7 +85,7 @@ function AddAppointment() {
       />
     </div>
     <div>
-      <lable htmlFor="purpose" className="mr-16 mb-2">Purpose</lable> <br/>
+      <label htmlFor="purpose" className="mr-16 mb-2">Purpose</label> <br/>
       <select
       id='purpose'
       name='purpose'
@@ -104,7 +104,7 @@ function AddAppointment() {
 
 
 <div>
-      <lable htmlFor="date" className="mr-16 mb-2">Date for Appointment</lable> <br/>
+      <label htmlFor="date" className="mr-16 mb-2">Date for Appointment</label> <br/>
       <input type='date'
       name='date'
       id='date'
