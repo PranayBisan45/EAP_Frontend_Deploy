@@ -6,11 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      'login-image': "url(./assets/Login.jpg)",
-      'regis-image': "url(./assets/Registration.jpg)",
-      'update-image': "url(./assets/Update_Appointment.jpg)",
-      'add-image': "url(./assets/Add_Appointment.jpg)",
-      'forgot-password' : "url(./assets/Forgot_Password.jfif)"
+      'login-image': "url('/Login.jpg')",
+      'regis-image': "url('/Registration.jpg')",
+      'update-image': "url('/Update_Appointment.jpg')",
+      'add-image': "url('/Add_Appointment.jpg')",
+      'forgot-password' : "url('/Forgot_Password.jfif')"
     },
   },
   plugins: [],
